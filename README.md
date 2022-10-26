@@ -32,3 +32,6 @@ As it is non-linear functions linearize it using Jacobian (gradient) with Taylor
 
 # Magnetometer
 We rotate 3d magnetometer and remove Z as we only interested in direction.
+
+# References
+* https://www.diva-portal.org/smash/get/diva2:818704/FULLTEXT01.pdf
