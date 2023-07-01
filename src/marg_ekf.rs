@@ -5,8 +5,8 @@ use super::mat_utils::invert;
 #[derive(Debug)]
 /// Extended Kalman Filter for attitude estimation from MARG data
 pub struct MargEkf {
-    /// Internal state: rotation quaternion and gyroscope biases
-    state: Array<f32, Ix1>,
+    /// (semi)Internal state: rotation quaternion and gyroscope biases
+    pub state: Array<f32, Ix1>,
     /// Predicted gravity and magnetic vectors
     predicted_accel_mag: Array<f32, Ix1>,
     /// A measure of the estimated accuracy of the state estimate
